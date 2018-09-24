@@ -8,7 +8,7 @@ End-to-end encrypted, HIPAA-compliant JavaScript chat sample app for Firebase. W
 
 ## Clone JavaScript project
 
-Clone the repo to your computer. Open *terminal*, navigate to the folder where you want to store the application and execute
+* Clone the repo to your computer. Open *terminal*, navigate to the folder where you want to store the application and execute
 ```bash
 git clone https://github.com/VirgilSecurity/demo-firebase-js
 cd demo-firebase-js
