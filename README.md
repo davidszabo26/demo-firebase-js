@@ -7,14 +7,12 @@ End-to-end encrypted, HIPAA-compliant JavaScript chat sample app for Firebase. W
 * [npm](https://www.npmjs.com/get-npm) or yarn
 
 ## Clone JavaScript project
-
-Clone the repo to your computer. Open *terminal*, navigate to the folder where you want to store the application and execute
 ```bash
 git clone https://github.com/VirgilSecurity/demo-firebase-js
 cd demo-firebase-js
 ```
 
-## Let's set up your Firebase account for the app
+## Set up your Firebase account for the app
 In order for the app to work, you need to deploy a Firebase function that gives out JWT tokens for your authenticated users. You'll also need to create a Firestore database with a specific rule set.
 
 * **[Follow instructions here](https://github.com/VirgilSecurity/demo-firebase-func)**
@@ -43,14 +41,15 @@ In order for the app to work, you need to deploy a Firebase function that gives 
   ```
 * **Replace the copied block** in your `src/firebase.ts` file.
 
-### Update dependencies, build & run
+## Test it
 
-```
-npm install
-npm run start
-```
+* **Update dependencies, build & run**
+  ```
+  npm install
+  npm run start
+  ```
 
-* **Browse to http://localhost:1234** to test the app.
+* **Browse to http://localhost:1234**
 
 > Start a **second incognito window** to have 2 chat apps running with 2 different users
 
